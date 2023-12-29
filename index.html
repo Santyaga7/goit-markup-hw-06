@@ -35,6 +35,12 @@
       <use href="./images/icons.svg#instagram"></use>
       <use href="./images/icons.svg#linkedin2"></use>
       <use href="./images/icons.svg#twitter"></use>
+      <use href="./images/icons.svg#email-black"></use>
+      <use href="./images/icons.svg#phone-black"></use>
+      <use href="./images/icons.svg#person-black"></use>
+      <use href="./images/icons.svg#close-black1"></use>
+      <use href="./images/icons.svg#click"></use>
+      <use href="./images/icons.svg#solid_menu"></use>
     </svg>
     <header class="header">
       <div class="nav-menu container">
@@ -42,6 +48,7 @@
           <a class="logo" href="./index.html"
             >Web<span class="logo-grey">Studio</span></a
           >
+
           <ul class="menu-main">
             <li><a class="menu current" href="./index.html">Studio</a></li>
             <li><a class="menu" href="">Portfolio</a></li>
@@ -63,6 +70,71 @@
             </li>
           </ul>
         </address>
+        <a class="menu-burger" href="">
+          <svg class="menu-burger" height="24" width="24">
+            <use href="./images/icons.svg#solid_menu"></use>
+          </svg>
+        </a>
+      </div>
+
+      <!--Mobile Menu-->
+      <div class="menu-mobile">
+        <button type="button" class="close-btn">
+          <svg class="close" width="8" height="8">
+            <use href="./images/icons.svg#close-black1"></use>
+          </svg>
+        </button>
+        <ul class="menu-mobile-list">
+          <li>
+            <a class="menu-mobile-item current" href="./index.html">Studio</a>
+          </li>
+          <li><a class="menu-mobile-item" href="">Portfolio</a></li>
+          <li><a class="menu-mobile-item" href="">Contacts</a></li>
+        </ul>
+        <address class="address-mobile">
+          <ul class="address-list-mobile">
+            <li>
+              <a class="address-details-mobile" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-details-mobile" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="social-media-mobile">
+          <li class="icon-circle">
+            <a class="icon-link" href="">
+              <svg class="icon-social-mobile" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-circle">
+            <a class="icon-link" href="">
+              <svg class="icon-social-mobile" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-circle">
+            <a class="icon-link" href="">
+              <svg class="icon-social-mobile" width="24" height="24">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-circle">
+            <a class="icon-link" href="">
+              <svg class="icon-social-mobile" width="24" height="24">
+                <use href="./images/icons.svg#linkedin2"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -82,17 +154,17 @@
 
       <!--section 2-->
 
-      <section class="advantages-section section">
+      <section class="advantages section">
         <div class="container">
           <h2 class="visually-hidden">Our Advantages</h2>
-          <ul class="advantages">
+          <ul class="advantages-list">
             <li class="advantages-list-item">
               <div class="icon-list">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list">Strategy</h3>
+              <h3 class="advantages-list-title">Strategy</h3>
               <p class="advantages-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -104,7 +176,7 @@
                   <use href="./images/icons.svg#clock-1"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list">Punctuality</h3>
+              <h3 class="advantages-list-title">Punctuality</h3>
               <p class="advantages-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -116,7 +188,7 @@
                   <use href="./images/icons.svg#diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list">Diligence</h3>
+              <h3 class="advantages-list-title">Diligence</h3>
               <p class="advantages-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -128,7 +200,7 @@
                   <use href="./images/icons.svg#astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list">Technologies</h3>
+              <h3 class="advantages-list-title">Technologies</h3>
               <p class="advantages-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -147,6 +219,7 @@
             <li class="team-list-item">
               <div class="team-img">
                 <img
+                  srcset="./images/Mark.jpg 1x, ./images/Mark@2x.jpg 2x"
                   src="./images/Mark.jpg"
                   alt="product-designer"
                   width="264"
@@ -154,7 +227,7 @@
                 />
               </div>
               <div class="team-descr">
-                <h3 class="team-list-header">Mark Guerrero</h3>
+                <h3 class="team-list-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
                 <ul class="social-media-team">
                   <li class="icon-circle">
@@ -191,6 +264,7 @@
             <li class="team-list-item">
               <div class="team-img">
                 <img
+                  srcset="./images/Tom.jpg 1x, ./images/Tom@2x.jpg 2x"
                   src="./images/Tom.jpg"
                   alt="frontend-developer"
                   width="264"
@@ -198,7 +272,7 @@
                 />
               </div>
               <div class="team-descr">
-                <h3 class="team-list-header">Tom Ford</h3>
+                <h3 class="team-list-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
 
                 <ul class="social-media-team">
@@ -236,6 +310,7 @@
             <li class="team-list-item">
               <div class="team-img">
                 <img
+                  srcset="./images/Camila.jpg 1x, ./images/Camila@2x.jpg 2x"
                   src="./images/Camila.jpg"
                   alt="marketing"
                   width="264"
@@ -243,7 +318,7 @@
                 />
               </div>
               <div class="team-descr">
-                <h3 class="team-list-header">Camila Garcia</h3>
+                <h3 class="team-list-title">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
 
                 <ul class="social-media-team">
@@ -281,6 +356,7 @@
             <li class="team-list-item">
               <div class="team-img">
                 <img
+                  srcset="./images/Daniel.jpg 1x, ./images/Daniel@2x.jpg 2x"
                   src="./images/Daniel.jpg"
                   alt="ui-designer"
                   width="264"
@@ -288,7 +364,7 @@
                 />
               </div>
               <div class="team-descr">
-                <h3 class="team-list-header">Daniel Wilson</h3>
+                <h3 class="team-list-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
 
                 <ul class="social-media-team">
@@ -335,7 +411,12 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-img">
-                <img src="./images/banking.jpg" alt="banking-app" width="360" />
+                <img
+                  srcset="./images/banking.jpg 1x, ./images/bankin@2x.jpg 2x"
+                  src="./images/banking.jpg"
+                  alt="banking-app"
+                  width="360"
+                />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -343,7 +424,7 @@
                 </p>
               </div>
               <div class="portfolio-descr">
-                <h3 class="portfolio-list-header">Banking App</h3>
+                <h3 class="portfolio-list-title">Banking App</h3>
                 <p class="portfolio-text">App</p>
               </div>
             </li>
@@ -351,6 +432,10 @@
             <li class="portfolio-item">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/CashlessPayment.jpg    1x,
+                    ./images/CashlessPayment@2x.jpg 2x
+                  "
                   src="./images/CashlessPayment.jpg"
                   alt="cashless-payment"
                   width="360"
@@ -362,13 +447,17 @@
                 </p>
               </div>
               <div class="portfolio-descr">
-                <h3 class="portfolio-list-header">Cashless Payment</h3>
+                <h3 class="portfolio-list-title">Cashless Payment</h3>
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/MeditationApp.jpg    1x,
+                    ./images/MeditationApp@2x.jpg 2x
+                  "
                   src="./images/MeditationApp.jpg"
                   alt="meditation-app"
                   width="360"
@@ -381,13 +470,17 @@
                 </p>
               </div>
               <div class="portfolio-descr">
-                <h3 class="portfolio-list-header">Meditation App</h3>
+                <h3 class="portfolio-list-title">Meditation App</h3>
                 <p class="portfolio-text">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/TaxService.jpg    1x,
+                    ./images/TaxService@2x.jpg 2x
+                  "
                   src="./images/TaxService.jpg"
                   alt="taxi-service"
                   width="360"
@@ -400,13 +493,17 @@
                 </p>
               </div>
               <div class="portfolio-descr">
-                <h3 class="portfolio-list-header">Taxi Service</h3>
+                <h3 class="portfolio-list-title">Taxi Service</h3>
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/ScreenIllustrations.jpg    1x,
+                    ./images/ScreenIllustrations@2x.jpg 2x
+                  "
                   src="./images/ScreenIllustrations.jpg"
                   alt="screen-illustrations"
                   width="360"
@@ -419,13 +516,17 @@
                 </p>
               </div>
               <div class="portfolio-descr">
-                <h3 class="portfolio-list-header">Screen Illustrations</h3>
+                <h3 class="portfolio-list-title">Screen Illustrations</h3>
                 <p class="portfolio-text">Design</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/OnlineCourses.jpg 1x,
+                    ./images/OnlineCourses.jpg 2x
+                  "
                   src="./images/OnlineCourses.jpg"
                   alt="online-courses"
                   width="360"
@@ -438,7 +539,7 @@
                 </p>
               </div>
               <div class="portfolio-descr">
-                <h3 class="portfolio-list-header">Online Courses</h3>
+                <h3 class="portfolio-list-title">Online Courses</h3>
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
@@ -459,7 +560,7 @@
           </p>
         </div>
         <div class="social-media-footer">
-          <p class="footer-title">Social media</p>
+          <p class="footer-social">Social media</p>
           <ul class="social-media-icons">
             <li class="icon-footer">
               <a class="icon-link-footer" href="">
@@ -513,7 +614,6 @@
         </div>
       </div>
     </footer>
-
     <!--Modal form-->
     <div class="backdrop">
       <div class="modal">
@@ -596,11 +696,12 @@
             <label class="terms" for="user-privacy"
               ><span class="checkbox"
                 ><svg class="svg-checkbox" width="10" height="8">
-                  <use href="./images/icons.svg#click"></use></svg></span
+                  <use href="./images/icons.svg#checked"></use></svg></span
               >I accept the terms and conditions of the
               <a class="link-privacy" href="">Privacy Policy</a></label
             >
           </div>
+
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
