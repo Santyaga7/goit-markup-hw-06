@@ -840,6 +840,7 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
+    width: 584px;
   }
   .form-footer {
     display: flex;
