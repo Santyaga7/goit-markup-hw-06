@@ -840,7 +840,6 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    width: 584px;
   }
   .form-footer {
     display: flex;
@@ -862,23 +861,23 @@ button {
   }
   .social-media-footer {
     margin-bottom: 0;
+    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .footer {
-    padding: 100px 0;
+    padding: 100px;
   }
   .logo-footer-n-text {
     margin-right: 120px;
     margin-bottom: 0;
   }
   .social-media-footer {
-    margin-right: 80;
+    margin-right: 80px;
   }
   .container-footer {
-    flex-wrap: nowrap;
-    padding: 0;
+  flex-wrap: nowrap;
   }
   .label {
     justify-content: flex-end;
