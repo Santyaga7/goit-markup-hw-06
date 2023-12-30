@@ -868,7 +868,7 @@ button {
 
 @media screen and (min-width: 1158px) {
   .footer {
-    padding: 100px;
+    padding: 100px 0;
   }
   .logo-footer-n-text {
     margin-right: 120px;
@@ -879,6 +879,7 @@ button {
   }
   .container-footer {
   flex-wrap: nowrap;
+  width: 1158px;
   }
   .label {
     justify-content: flex-end;
