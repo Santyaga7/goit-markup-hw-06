@@ -601,6 +601,7 @@ button {
   display: flex;
   flex-direction: column;
   row-gap: 48px;
+  column-gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -652,8 +653,8 @@ button {
   top: 0;
   transform: translateY(100%);
 
-  color: var(--light);
-  background-color: var(--primary-brand);
+  color: #f4f4fd;;
+  background-color: #4d5ae5;
   letter-spacing: inherit;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -669,6 +670,8 @@ button {
   padding-right: 16px;
   border: 1px solid var(--accent);
   border-top: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .portfolio-list .link {
